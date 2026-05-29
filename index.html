@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Video Call</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Video Call</h1>
+
+<div>
+<input id="roomInput" placeholder="Room ID">
+<button id="joinBtn">Join Room</button>
+</div>
+
+<p id="roomLabel"></p>
+
+<div class="videos">
+<video id="localVideo" autoplay muted playsinline></video>
+<video id="remoteVideo" autoplay playsinline></video>
+</div>
+
+<div>
+<button id="cameraBtn">Start Camera</button>
+<button id="callBtn">Start Call</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
